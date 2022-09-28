@@ -1,0 +1,30 @@
+/*
+MY COLOR PALETTE
+Color 1 - #033F63
+Color 2 - #28666E
+Color 3 - #7C9885
+Color 4 - #B5B682
+Color 5 - #FEDC97
+*/
+
+body {
+    background-color: #033F63 ;
+    text-align:center;
+}
+
+div {
+    width: 300px;
+    height: 300px;
+    text-align:center;
+    font-size:44px;
+    font-family: 'Courgette', cursive;
+    color: #FEDC97;
+    border:3px solid #7C9885;
+    padding: 60px 30px 10px 30px; 
+    margin: auto; 
+}
+
+#highlight {
+    color: #B5B682;
+    font-weight:bold;
+}
