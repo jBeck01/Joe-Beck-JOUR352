@@ -4,3 +4,13 @@
     padding: 20px 0px 20px 0px;
     text-align:center;
 }
+
+h1 {
+    font-size: 90px;
+    font-family: arial;
+    border: 1px solid blue <!--Example-->;
+}
+
+#title {
+    font-weight: bold;
+}
