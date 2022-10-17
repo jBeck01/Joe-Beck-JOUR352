@@ -5,12 +5,52 @@
     text-align:center;
 }
 
-h1 {
-    font-size: 90px;
-    font-family: arial;
-    border: 1px solid blue <!--Example-->;
+#heading1 {
+    font-size: 150px;
+    font-family: Euphemia UCAS;
+    font-weight: bold;
+}
+
+#heading2 {
+    font-family: Euphemia UCAS;
+    font-weight: bold;
+    font-size: 50px;
 }
 
 #title {
+    font-weight: bolder;
+}
+
+#company {
     font-weight: bold;
+}
+
+#topper {
+    background-color: #F8DDA0;
+}
+
+#headshot {
+    border-radius: 200px;
+    width: 250px;
+    border: 3px solid black;
+    margin: 15px 0px 15px 15px;
+}
+
+#button {
+    background-color:#829787;
+    border:0px;
+    border-radius: 20px;
+    padding:10px 30px 10px 30px;
+    text-transform:uppercase;
+    margin:10px;
+}
+
+#button a {
+    color:#13304B;
+    text-decoration: none;
+}
+
+#h3 {
+    text-align:center;
+    color: aqua;
 }
