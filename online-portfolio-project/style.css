@@ -1,3 +1,5 @@
+@media {
+    
 #footer {
     background-color: #F8DDA0;
     color: #13304B;
@@ -53,4 +55,22 @@
 #h3 {
     text-align:center;
     color: aqua;
+}
+
+.nav { 
+    font-family: Euphemia UCAS;
+    
+}
+
+#description { 
+    border: 3px solid black;
+    padding: 10px 30px 10px 30px;
+    text-align: left;
+}
+
+.centered { 
+    text-align: center;
+    margin: 0px 150px 0px 150px;
+}
+    
 }
