@@ -47,6 +47,10 @@
     margin:10px;
 }
 
+#button:hover {
+    background-color: #59594A;
+}
+
 #button a {
     color:#13304B;
     text-decoration: none;
@@ -54,13 +58,24 @@
 
 #h3 {
     text-align:center;
-    color: aqua;
+    color: #13304B;
 }
 
 .nav { 
     font-family: Euphemia UCAS;
-    
 }
+    
+.nav a {
+    background-color: #39656D;
+    text-align:center;
+    color: #F8DDA0;
+    padding:10px 30px 10px 30px;
+    }
+    
+.nav a:hover {
+    background-color: #59594A;
+    color: black;
+    }
 
 #description { 
     border: 3px solid black;
@@ -72,5 +87,13 @@
     text-align: center;
     margin: 0px 150px 0px 150px;
 }
-    
+
+#school {
+        border: 3px solid black;
+        margin: 10px 250px 10px 250px;
+    }
+#date2 {
+        border: 3px solid black;
+        margin: 10px 250px 10px 250px;
+    }
 }
