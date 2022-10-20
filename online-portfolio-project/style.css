@@ -59,6 +59,9 @@
 #h3 {
     text-align:center;
     color: #13304B;
+    text-transform:capitalize;
+    font-weight: bold;
+
 }
 
 .nav { 
@@ -78,10 +81,10 @@
     }
 
 #description { 
-    border: 3px solid black;
+    border: 3px solid #B4B687;
     padding: 10px 30px 10px 30px;
     text-align: left;
-    border-radius: 200px;
+    border-radius: 250px;
 }
 
 .centered { 
