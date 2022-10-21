@@ -1,0 +1,104 @@
+@media {
+    
+#footer {
+    background-color: #F8DDA0;
+    color: #13304B;
+    padding: 20px 0px 20px 0px;
+    text-align:center;
+}
+
+#heading1 {
+    font-size: 150px;
+    font-family: Euphemia UCAS;
+    font-weight: bold;
+}
+
+#heading2 {
+    font-family: Euphemia UCAS;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+#title {
+    font-weight: bolder;
+}
+
+#company {
+    font-weight: bold;
+}
+
+#topper {
+    background-color: #F8DDA0;
+}
+
+#headshot {
+    border-radius: 200px;
+    width: 250px;
+    border: 3px solid black;
+    margin: 15px 0px 15px 15px;
+}
+
+#button {
+    background-color:#829787;
+    border:0px;
+    border-radius: 20px;
+    padding:10px 30px 10px 30px;
+    text-transform:uppercase;
+    margin:10px;
+}
+
+#button:hover {
+    background-color: #59594A;
+}
+
+#button a {
+    color:#13304B;
+    text-decoration: none;
+}
+
+#h3 {
+    text-align:center;
+    color: #13304B;
+    text-transform:capitalize;
+    font-weight: bold;
+
+}
+
+.nav { 
+    font-family: Euphemia UCAS;
+}
+    
+.nav a {
+    background-color: #39656D;
+    text-align:center;
+    color: #F8DDA0;
+    padding:10px 30px 10px 30px;
+    }
+    
+.nav a:hover {
+    background-color: #59594A;
+    color: black;
+    }
+
+#description { 
+    border: 4px solid #B4B687;
+    padding: 10px 30px 10px 30px;
+    text-align: left;
+    border-radius: 350px;
+    
+}
+
+.centered { 
+    text-align: center;
+    margin: 0px 150px 0px 150px;
+}
+
+#school {
+        border: 3px solid black;
+        margin: 10px 250px 10px 250px;
+    }
+#date2 {
+        border: 3px solid black;
+        margin: 10px 250px 10px 250px;
+    }
+}
