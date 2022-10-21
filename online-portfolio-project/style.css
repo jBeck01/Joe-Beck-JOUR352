@@ -1,5 +1,5 @@
 @media {
-    
+    /*Phone Style smaller than 576px wide*/
 #footer {
     background-color: #F8DDA0;
     color: #13304B;
@@ -100,5 +100,10 @@
 #date2 {
         border: 3px solid black;
         margin: 10px 250px 10px 250px;
+    }
+
+#straight line {
+    color: black;
+    font-weight: bold;
     }
 }
