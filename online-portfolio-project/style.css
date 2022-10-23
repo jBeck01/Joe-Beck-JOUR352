@@ -1,40 +1,39 @@
 @media {
     /*Phone Style smaller than 576px wide*/
-#footer {
+    
+body {
     background-color: #F8DDA0;
+}
+    
+#footer {
+    background-color: #B4B687;
     color: #13304B;
     padding: 20px 0px 20px 0px;
-    text-align:center;
+    text-align: center;
 }
 
 #heading1 {
     font-size: 150px;
     font-family: Euphemia UCAS;
     font-weight: bold;
+    color: #13304B;
 }
 
 #heading2 {
     font-family: Euphemia UCAS;
     font-weight: bold;
     font-size: 50px;
-}
-
-#title {
-    font-weight: bolder;
-}
-
-#company {
-    font-weight: bold;
+    color: #13304B;
 }
 
 #topper {
-    background-color: #F8DDA0;
+    background-color: #B4B687;
 }
 
 #headshot {
     border-radius: 200px;
     width: 250px;
-    border: 3px solid black;
+    border: 3px solid #13304B;
     margin: 15px 0px 15px 15px;
 }
 
@@ -61,6 +60,7 @@
     color: #13304B;
     text-transform:capitalize;
     font-weight: bold;
+    font-size: 40px
 
 }
 
@@ -81,12 +81,28 @@
     }
 
 #description { 
-    border: 4px solid #B4B687;
-    padding: 10px 30px 10px 30px;
-    text-align: left;
+    border: 4px solid #829787;
+    padding: 40px 20px 45px 20px;
+    text-align: center;
     border-radius: 350px;
-    
+    margin: 30px 25px 30px 25px;
+    font-family: Euphemia UCAS;
+    font-size: 20px;
+    color: #F8DDA0;
+    background-color: #13304B;
 }
+
+#description1 {
+    border: 4px solid #829787;
+    padding: 40px 20px 40px 40px;
+    text-align: center;
+    border-radius: 300px;
+    margin: 10px 250px 10px 250px;
+    font-family: Euphemia UCAS;
+    font-size: 18px;
+    background-color: #13304B;
+    color: #F8DDA0;
+    }
 
 .centered { 
     text-align: center;
@@ -94,16 +110,23 @@
 }
 
 #school {
-        border: 3px solid black;
-        margin: 10px 250px 10px 250px;
-    }
-#date2 {
-        border: 3px solid black;
-        margin: 10px 250px 10px 250px;
+        text-align: center;
+        border: 3px solid #829787;
+        border-radius: 350px;
+        margin: 10px 300px 10px 300px;
+        font-family: Euphemia UCAS;
+        font-size: 18px;
+        color: #F8DDA0;
+        background-color: #13304B;
     }
 
-#straight line {
-    color: black;
-    font-weight: bold;
+#straightline {
+    border: 6px solid #F8DDA0;
+    margin: 5px
+    }
+
+#straightline1 {
+    border: 6px solid #13304B;
+    margin: 15px
     }
 }
