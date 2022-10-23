@@ -1,5 +1,4 @@
 @media {
-    /*Phone Style smaller than 576px wide*/
     
 body {
     background-color: #F8DDA0;
@@ -129,4 +128,14 @@ body {
     border: 6px solid #13304B;
     margin: 15px
     }
+}
+
+@media (min-width: 576px) {
+    /*Tablet-only styles here*/
+    /*This media query targets any screen that is at least 576px wide (but smaller than 992px wide (see below)*/
+}
+
+@media (min-width: 992px) {
+    /*Desktop-only styles here*/
+    /*This media query targets any screen that is at least 992px wide*/
 }
