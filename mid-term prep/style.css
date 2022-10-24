@@ -1,0 +1,54 @@
+@media {
+
+#headshot {
+    width: 300px;
+    float: none; 
+    margin: 0px 30px 0px 0px;
+}
+
+body{
+    font-family: Arial, san-serif;
+}
+
+#contact a {
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 50px 0px 0px 0px;
+}
+
+#contact a:hover {
+    color: red;
+}
+
+#info {
+    width: 100%;
+    margin: auto;
+}
+
+h1 {
+    margin:0px 0px 40px 0px;
+}
+
+#footer { 
+    background-color: #B4B687;
+    color: #13304B;
+    padding: 20px 0px 20px 20px;
+    text-align: center;
+    position: fixed;
+    bottom: 0px;
+}
+    
+}
+
+@media (min-width:576px) {
+
+#headshot {
+    float: left; 
+}
+
+#info {
+    width:700px;
+    }
+
+}
