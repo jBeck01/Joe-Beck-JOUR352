@@ -2,6 +2,14 @@
     /*Phone styles here*/
   /*This media query targets any screen smaller than 576px wide (see below)*/
    
+    .mainimage {
+        width: 100%;
+        height: 750px;
+    }
+    #pullquote {
+        border: 
+        padding: 
+    }
 }
 
 @media (min-width: 576px) {
