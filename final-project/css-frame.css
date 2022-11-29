@@ -5,6 +5,35 @@
     body {
         background-color: #A8B9B7;
         font-family: Lao MN;
+        color: #F0F2C5;
+    }
+    
+    h1{
+        font-family: Lao MN;
+        font-weight: bold;
+        color: #090F0F;
+        text-align: center;
+        font-size: 45px; 
+    }
+    
+    #straightline{
+        border: 3px solid #983029;
+        margin: 4px;
+    }
+    
+    h2{
+        font-family: Lao MN;
+        font-weight: bold;
+        color: #090F0F;
+        text-align: center;
+        font-size: 25px;
+
+    }
+    
+    h3{
+        font-family: Lao MN;
+        font-weight: bold;
+        color: #090F0F;
     }
     
     .mainimage {
@@ -22,6 +51,11 @@
     }
     
     .secondimage{
+        width: 100%;
+        height: 550px;
+    }
+    
+    .thirdimage{
         width: 100%;
         height: 550px;
     }
