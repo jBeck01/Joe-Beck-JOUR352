@@ -3,28 +3,28 @@
   /*This media query targets any screen smaller than 576px wide (see below)*/
    
     body {
-        background-color: #A8B9B7;
+        background-color: #3A4960;
         font-family: Lao MN;
-        color: #F0F2C5;
+        color: #EBEBEB;
     }
     
     h1{
         font-family: Lao MN;
         font-weight: bold;
-        color: #090F0F;
+        color: #0D132A;
         text-align: center;
         font-size: 45px; 
     }
     
     #straightline{
-        border: 3px solid #983029;
+        border: 3px solid #6BACAB;
         margin: 4px;
     }
     
     h2{
         font-family: Lao MN;
         font-weight: bold;
-        color: #090F0F;
+        color: #0D132A;
         text-align: center;
         font-size: 25px;
 
@@ -33,7 +33,7 @@
     h3{
         font-family: Lao MN;
         font-weight: bold;
-        color: #090F0F;
+        color: #0D132A;
     }
     
     .mainimage {
@@ -42,7 +42,7 @@
     }
     
     #pullquote {
-        border: 5px solid #BAA682;
+        border: 5px solid #6BACAB;
         padding: 20px 0px 20px 20px;
         font-family: georgia;
         font-weight: bold;
