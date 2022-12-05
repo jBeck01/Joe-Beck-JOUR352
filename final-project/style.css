@@ -1,0 +1,101 @@
+@media {
+    /*Phone styles here*/
+  /*This media query targets any screen smaller than 576px wide (see below)*/
+   
+    body {
+        background-color: #FEFBDE;
+        font-family: Lao MN;
+        color: #313630;
+    }
+    
+    h1{
+        font-family: Lao MN;
+        font-weight: bold;
+        color: #5F5838;
+        text-align: center;
+        font-size: 55px; 
+    }
+    
+    #straightline{
+        border: 3px solid #CD7938;
+        margin: 4px;
+    }
+    
+    h2{
+        font-family: Lao MN;
+        font-weight: bold;
+        color: #5F5838;
+        text-align: center;
+        font-size: 13px;
+
+    }
+    
+    h3{
+        font-family: Lao MN;
+        font-weight: bold;
+        color:#5F5838;
+        font-size: 35px;
+    }
+    
+    h4{ 
+        font-family: Lao MN;
+        color: #313630s;
+        font-size: 8px;
+        text-align: right;
+    }
+    
+    .mainimage {
+        width: 100%;
+        height: 750px;
+        filter: grayscale(100%);
+        border: 5px solid #555;
+    }
+    
+    #pullquote {
+        border: 5px solid #CD7938;
+        border-radius: 8px;
+        padding: 20px 0px 20px 20px;
+        font-family: georgia;
+        font-weight: bold;
+        font-size: 20px;
+        text-align: center;
+    }
+    
+    .secondimage{
+        width: 100%;
+        height: 550px;
+        border: 5px solid #555;
+    }
+    
+    #foot-traffic-graphic{
+        background: white;
+        font-family: Lao MN;
+        border: 3px solid #CD7938;
+        border-radius: 8px;
+        padding: 5px 5px 5px 5px;
+    }
+    
+    .thirdimage{
+        width: 100%;
+        height: 550px;
+        border: 5px solid #555;
+    }
+}
+
+@media (min-width: 576px) {
+    /*Tablet-only styles here*/
+    /*This media query targets any screen that is at least 576px wide (but smaller than 992px wide (see below)*/
+
+}
+
+@media (min-width: 992px) {
+    /*Desktop-only styles here*/
+    /*This media query targets any screen that is at least 992px wide*/
+
+}
+
+@media (min-width: 1200px) {
+  /*Large-Desktop-only styles here*/
+  /*This media query targets any screen that is at least 1200px wide*/
+
+}
