@@ -8,6 +8,24 @@
         color: #313630;
     }
     
+    .nav { 
+    font-family: Lao MN;
+    color:#313630;
+    }
+    
+    .nav a {
+    background-color: #CD7938;
+    text-align: center;
+    color: #313630;
+    padding:10px 30px 10px 30px;
+    border-radius: 75px;
+    }
+    
+    .nav a:hover {
+    background-color: #D8AA86;
+    color: black;
+    }
+    
     h1{
         font-family: Lao MN;
         font-weight: bold;
@@ -26,7 +44,7 @@
         font-weight: bold;
         color: #5F5838;
         text-align: center;
-        font-size: 13px;
+        font-size: 15px;
 
     }
     
@@ -49,55 +67,339 @@
         height: 750px;
         filter: grayscale(100%);
         border: 5px solid #555;
+        border-radius: 8px;
     }
     
     #pullquote {
         border: 5px solid #CD7938;
-        border-radius: 8px;
-        padding: 5px 5px 5px 5px;
+        padding: 20px 0px 20px 20px;
         font-family: georgia;
         font-weight: bold;
-        font-size: 20px;
+        font-size: 25px;
         text-align: center;
+        border-radius: 8px;
     }
     
     .secondimage{
         width: 100%;
         height: 550px;
-        border: 5px solid #555;
         filter: grayscale(100%);
-    }
-    
-    #foot-traffic-graphic{
-        background: white;
-        font-family: Lao MN;
-        border: 3px solid #CD7938;
+        border: 5px solid #555;
         border-radius: 8px;
-        padding: 5px 5px 5px 5px;
     }
     
     .thirdimage{
         width: 100%;
         height: 550px;
-        border: 5px solid #555;
         filter: grayscale(100%);
+        border: 5px solid #555;
+        border-radius: 8px;
+    }
+    
+    .graphic1 {
+        filter: grayscale(100%);
+        border: 5px solid #555;
+        border-radius: 8px;
+        background-color: white;
     }
 }
 
 @media (min-width: 576px) {
     /*Tablet-only styles here*/
     /*This media query targets any screen that is at least 576px wide (but smaller than 992px wide (see below)*/
+    .nav { 
+    font-family: Lao MN;
+    color:#313630;
+    }
+    
+    .nav a {
+    background-color: #CD7938;
+    text-align: center;
+    color: #313630;
+    padding:10px 30px 10px 30px;
+    border-radius: 75px;
+    }
+    
+    .nav a:hover {
+    background-color: #D8AA86;
+    color: black;
+    }
+    
+    h1{
+        font-family: Lao MN;
+        font-weight: bold;
+        color: #5F5838;
+        text-align: center;
+        font-size: 55px; 
+    }
+    
+    #straightline{
+        border: 3px solid #CD7938;
+        margin: 4px;
+    }
+    
+    h2{
+        font-family: Lao MN;
+        font-weight: bold;
+        color: #5F5838;
+        text-align: center;
+        font-size: 15px;
 
+    }
+    
+    h3{
+        font-family: Lao MN;
+        font-weight: bold;
+        color:#5F5838;
+        font-size: 35px;
+    }
+    
+    h4{ 
+        font-family: Lao MN;
+        color: #313630s;
+        font-size: 8px;
+        text-align: right;
+    }
+    
+    .mainimage {
+        width: 100%;
+        height: 750px;
+        filter: grayscale(100%);
+        border: 5px solid #555;
+        border-radius: 8px;
+    }
+    
+    #pullquote {
+        border: 5px solid #CD7938;
+        padding: 20px 0px 20px 20px;
+        font-family: georgia;
+        font-weight: bold;
+        font-size: 25px;
+        text-align: center;
+        border-radius: 8px;
+    }
+    
+    .secondimage{
+        width: 100%;
+        height: 550px;
+        filter: grayscale(100%);
+        border: 5px solid #555;
+        border-radius: 8px;
+    }
+    
+    .thirdimage{
+        width: 100%;
+        height: 550px;
+        filter: grayscale(100%);
+        border: 5px solid #555;
+        border-radius: 8px;
+    }
+    
+    .graphic1 {
+        filter: grayscale(100%);
+        border: 5px solid #555;
+        border-radius: 8px;
+        background-color: white;
+    }
+}
 }
 
 @media (min-width: 992px) {
     /*Desktop-only styles here*/
     /*This media query targets any screen that is at least 992px wide*/
+    .nav { 
+    font-family: Lao MN;
+    color:#313630;
+    }
+    
+    .nav a {
+    background-color: #CD7938;
+    text-align: center;
+    color: #313630;
+    padding:10px 30px 10px 30px;
+    border-radius: 75px;
+    }
+    
+    .nav a:hover {
+    background-color: #D8AA86;
+    color: black;
+    }
+    
+    h1{
+        font-family: Lao MN;
+        font-weight: bold;
+        color: #5F5838;
+        text-align: center;
+        font-size: 55px; 
+    }
+    
+    #straightline{
+        border: 3px solid #CD7938;
+        margin: 4px;
+    }
+    
+    h2{
+        font-family: Lao MN;
+        font-weight: bold;
+        color: #5F5838;
+        text-align: center;
+        font-size: 15px;
 
+    }
+    
+    h3{
+        font-family: Lao MN;
+        font-weight: bold;
+        color:#5F5838;
+        font-size: 35px;
+    }
+    
+    h4{ 
+        font-family: Lao MN;
+        color: #313630s;
+        font-size: 8px;
+        text-align: right;
+    }
+    
+    .mainimage {
+        width: 100%;
+        height: 750px;
+        filter: grayscale(100%);
+        border: 5px solid #555;
+        border-radius: 8px;
+    }
+    
+    #pullquote {
+        border: 5px solid #CD7938;
+        padding: 20px 0px 20px 20px;
+        font-family: georgia;
+        font-weight: bold;
+        font-size: 25px;
+        text-align: center;
+        border-radius: 8px;
+    }
+    
+    .secondimage{
+        width: 100%;
+        height: 550px;
+        filter: grayscale(100%);
+        border: 5px solid #555;
+        border-radius: 8px;
+    }
+    
+    .thirdimage{
+        width: 100%;
+        height: 550px;
+        filter: grayscale(100%);
+        border: 5px solid #555;
+        border-radius: 8px;
+    }
+    
+    .graphic1 {
+        filter: grayscale(100%);
+        border: 5px solid #555;
+        border-radius: 8px;
+        background-color: white;
+    }
+}
 }
 
 @media (min-width: 1200px) {
   /*Large-Desktop-only styles here*/
   /*This media query targets any screen that is at least 1200px wide*/
+    .nav { 
+    font-family: Lao MN;
+    color:#313630;
+    }
+    
+    .nav a {
+    background-color: #CD7938;
+    text-align: center;
+    color: #313630;
+    padding:10px 30px 10px 30px;
+    border-radius: 75px;
+    }
+    
+    .nav a:hover {
+    background-color: #D8AA86;
+    color: black;
+    }
+    
+    h1{
+        font-family: Lao MN;
+        font-weight: bold;
+        color: #5F5838;
+        text-align: center;
+        font-size: 55px; 
+    }
+    
+    #straightline{
+        border: 3px solid #CD7938;
+        margin: 4px;
+    }
+    
+    h2{
+        font-family: Lao MN;
+        font-weight: bold;
+        color: #5F5838;
+        text-align: center;
+        font-size: 15px;
 
+    }
+    
+    h3{
+        font-family: Lao MN;
+        font-weight: bold;
+        color:#5F5838;
+        font-size: 35px;
+    }
+    
+    h4{ 
+        font-family: Lao MN;
+        color: #313630s;
+        font-size: 8px;
+        text-align: right;
+    }
+    
+    .mainimage {
+        width: 100%;
+        height: 750px;
+        filter: grayscale(100%);
+        border: 5px solid #555;
+        border-radius: 8px;
+    }
+    
+    #pullquote {
+        border: 5px solid #CD7938;
+        padding: 20px 0px 20px 20px;
+        font-family: georgia;
+        font-weight: bold;
+        font-size: 25px;
+        text-align: center;
+        border-radius: 8px;
+    }
+    
+    .secondimage{
+        width: 100%;
+        height: 550px;
+        filter: grayscale(100%);
+        border: 5px solid #555;
+        border-radius: 8px;
+    }
+    
+    .thirdimage{
+        width: 100%;
+        height: 550px;
+        filter: grayscale(100%);
+        border: 5px solid #555;
+        border-radius: 8px;
+    }
+    
+    .graphic1 {
+        filter: grayscale(100%);
+        border: 5px solid #555;
+        border-radius: 8px;
+        background-color: white;
+    }
+}
 }
